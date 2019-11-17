@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5795454068306948692
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5795454068306948690}
+  - component: {fileID: 5795454068306948693}
+  m_Layer: 0
+  m_Name: _GAME_MANAGER
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5795454068306948690
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5795454068306948692}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5795454068306948693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5795454068306948692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e6b3cf1849804f188939ef83c5c46e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obsMixer: {fileID: 24100000, guid: 93b3d6d21933ead448beca329b700f20, type: 2}
+  _gameSpeed: 0
+  startGame: 0
+  ended: 0
+  interacted: 0
+  displayUI: 0
+  endGameStatus: 
+  CurrentClipIndex: 0
+  obsLvl: 0
+  RealSpeed: 0
+  RoadLength: 20
+  DistanceToDestroy: 60
+  distance: 0
+  realDistance: 0
+  oldDistance: 0
+  distanceToHospital: 2000
+  distanceRemaining: 2000
+  timer: 0
+  timeSinceStart: 0
+  gameDuration: 120
+  timeRemaining: 120
